@@ -8,6 +8,8 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
 
-require('mongoose')
-  .connection
-  .once('open', () => app.listen(3000))
+// require('mongoose')
+//   .connection
+//   .once('open', () => 
+
+app.listen(8080)
